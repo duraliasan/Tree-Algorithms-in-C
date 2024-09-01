@@ -16,15 +16,17 @@ Process the Input File and Generate Output:
 
 After compiling, you can run the .exe file with an input file and direct the output to a file using this command:
 
-powershell
-Kodu kopyala
-Get-Content input.txt | .\file.exe | Out-File myOutput.txt
+   ```powershell
+   Get-Content input.txt | .\file.exe | Out-File myOutput.txt
+
 This command reads the content of input.txt, pipes it to file.exe, and writes the results to myOutput.txt.
 
-Notes
+Notes:
 Ensure that GCC (GNU Compiler Collection) is installed on your computer for the compilation process.
 Make sure that the output file is in the same directory or specify the full path.
-SIRALAMA VE ARAMA UYGULAMALARI
+
+
+# SIRALAMA VE ARAMA UYGULAMALARI
 Merhabalar,
 
 Bu depo içerisinde bazı sıralama (sort) ve arama (search) algoritmalarına ait uygulamalar bulacaksınız. Uygulamalar .c uzantılı dosyalar olarak sunulmuştur.
@@ -34,18 +36,18 @@ C Dosyasını Derleme:
 
 .c uzantılı dosyayı .exe uzantılı bir yürütülebilir dosyaya dönüştürmek için aşağıdaki komutu PowerShell ekranına yazabilirsiniz:
 
-powershell
-Kodu kopyala
+```powershell
 gcc -o file.exe file.c
+
 Girdi Dosyasını İşleme ve Çıktı Alma:
 
 Derlenmiş olan .exe dosyasını bir girdi dosyasıyla birlikte çalıştırarak çıktı almak için şu komutu kullanabilirsiniz:
 
-powershell
-Kodu kopyala
+```powershell
 Get-Content input.txt | .\file.exe | Out-File myOutput.txt
+
 Bu komut, input.txt dosyasındaki içeriği file.exe dosyasına yönlendirir ve sonuçları myOutput.txt dosyasına yazar.
 
-Notlar
+Notlar:
 Derleme işlemi için bilgisayarınızda GCC (GNU Compiler Collection) kurulu olmalıdır.
 Çıktı dosyasının aynı klasörde olup olmadığından emin olun veya tam yol belirleyin.
