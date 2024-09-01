@@ -1,5 +1,4 @@
-# Tree-Algorithms-in-C
-Sort and Search Applications
+#Sort and Search Applications
 Hello,
 
 In this repository, you will find some sorting and searching algorithm applications. The applications are provided as .c files.
@@ -24,7 +23,9 @@ This command reads the content of input.txt, pipes it to file.exe, and writes th
 Notes
 Ensure that GCC (GNU Compiler Collection) is installed on your computer for the compilation process.
 Make sure that the output file is in the same directory or specify the full path.
-Sıralama ve Arama Uygulamaları
+
+
+#Sıralama ve Arama Uygulamaları
 Merhabalar,
 
 Bu depo içerisinde bazı sıralama (sort) ve arama (search) algoritmalarına ait uygulamalar bulacaksınız. Uygulamalar .c uzantılı dosyalar olarak sunulmuştur.
