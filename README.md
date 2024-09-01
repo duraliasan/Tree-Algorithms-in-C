@@ -1,16 +1,17 @@
-#Sort and Search Applications
+# SORT AND SEARCH APPLICATIONS
+
 Hello,
 
-In this repository, you will find some sorting and searching algorithm applications. The applications are provided as .c files.
+In this repository, you will find some sorting and searching algorithm applications. The applications are provided as `.c` files.
 
-Compilation and Execution
-Compile the C File:
+### Compilation and Execution
 
-To convert the .c file into a .exe executable file, you can enter the following command in the PowerShell window:
+1. **Compile the C File:**
 
-powershell
-Kodu kopyala
-gcc -o file.exe file.c
+   To convert the `.c` file into a `.exe` executable file, you can enter the following command in the PowerShell window:
+
+   ```powershell
+   gcc -o file.exe file.c
 Process the Input File and Generate Output:
 
 After compiling, you can run the .exe file with an input file and direct the output to a file using this command:
@@ -23,9 +24,7 @@ This command reads the content of input.txt, pipes it to file.exe, and writes th
 Notes
 Ensure that GCC (GNU Compiler Collection) is installed on your computer for the compilation process.
 Make sure that the output file is in the same directory or specify the full path.
-
-
-#Sıralama ve Arama Uygulamaları
+SIRALAMA VE ARAMA UYGULAMALARI
 Merhabalar,
 
 Bu depo içerisinde bazı sıralama (sort) ve arama (search) algoritmalarına ait uygulamalar bulacaksınız. Uygulamalar .c uzantılı dosyalar olarak sunulmuştur.
